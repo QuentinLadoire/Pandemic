@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2668037875388660762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2668037875388660765}
+  - component: {fileID: 5273237679489848657}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2668037875388660765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2668037875388660762}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5273237679489848657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2668037875388660762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64b0f2b23452324429d782b82170e721, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_dicesPrefabReference:
+    blueDice: {fileID: 1884389458862386038, guid: 6f029fd66c766d246b3a3befb704f106,
+      type: 3}
+    brownDice: {fileID: 5016315405860529722, guid: 7f57d021bb7e93d4f8023b11aab42076,
+      type: 3}
+    greenDice: {fileID: 513055648162369060, guid: d11758067bba989449c61372d2db788c,
+      type: 3}
+    greyDice: {fileID: 3907275413884981900, guid: a91491071c3a7ea49a1aa537c1c31c7c,
+      type: 3}
+  m_pawnPrefabReference:
+    bluePawn: {fileID: 8470517534476290811, guid: eb4c6e473c8f8844dbb7ebc16ba3826a,
+      type: 3}
+    brownPawn: {fileID: 2091097736535888977, guid: 622994ee2b1ef8049b23ab5efa012155,
+      type: 3}
+    greenPawn: {fileID: 5213894681159308871, guid: 9e276d759d7c53744afac457d414debe,
+      type: 3}
+    greyPawn: {fileID: 6750598179168486375, guid: 38a179efe2ab25b4494aa8efd5e1013e,
+      type: 3}
+    planePawn: {fileID: 6911481031709983915, guid: 3f181375e22091c4597baab7909a719e,
+      type: 3}
+  m_supplysPrefabReference:
+    energySupply: {fileID: 7415898823859587402, guid: a7fc373c7e474bb4889527d493810a85,
+      type: 3}
+    firstAidSupply: {fileID: 6356896351144184890, guid: f9a5036ffc50cda49819c76d1580f2c1,
+      type: 3}
+    foodSupply: {fileID: 6726994693359395778, guid: 16562a3d6956bf84b931847987289ea2,
+      type: 3}
+    vaccineSupply: {fileID: 1346436310095918608, guid: 24d0cceab75551849ae19bdb8238cca0,
+      type: 3}
+    waterSupply: {fileID: 4087306069417054564, guid: 82aede2ab90d4154ea54e339c819709a,
+      type: 3}
+  m_tokensPrefabReference:
+    timeToken: {fileID: 7207239595929578821, guid: 6d57bcb62f4572744906a5e58f1e2f46,
+      type: 3}
+    wasteToken: {fileID: 2754381744773804379, guid: 0811fdb9ed6f4ed4392f52d232eb8472,
+      type: 3}
+  m_cardsPrefabReference:
+    characterCards:
+    - {fileID: 711988229318638651, guid: 4b3593224b1522d45862f574c586a5a9, type: 3}
+    - {fileID: 2354271326421762107, guid: 0d389db96e7bb534b8e3b676dc173bda, type: 3}
+    - {fileID: 2484789596402072816, guid: e7e502cb2e1412949ae1f6643f49d5c8, type: 3}
+    - {fileID: 1433605667639910903, guid: 96669efceeb351748878af747a49b2d5, type: 3}
+    townRegion:
+      blackTownCards:
+      - {fileID: 7003231183045307035, guid: 81de00d9b2fccd24c9e31814431d03b0, type: 3}
+      - {fileID: 641483405800875907, guid: c07f32e332c95a34cbf22b6d7e270a3a, type: 3}
+      - {fileID: 2939825287954230366, guid: 9e4cdb4faf8b4074ea02773fb0e35f3c, type: 3}
+      - {fileID: 300456111691879950, guid: e1e5bfdcd08dab04684cb08254b4fae4, type: 3}
+      - {fileID: 5294998067286697608, guid: 9ed2f3e746550104a9429b96ff1b3792, type: 3}
+      - {fileID: 4106554440346132347, guid: 7f40e3ff31e5528458ea354b8275eed5, type: 3}
+      blueTownCards:
+      - {fileID: 4699544259359019749, guid: 98111a3e40252ac48a9ae1948c78e1a7, type: 3}
+      - {fileID: 5349376891507698157, guid: 34ae5f004ae0c9a4ea098b67955e253a, type: 3}
+      - {fileID: 7206319148994854965, guid: 7d9f1c76393d44945b64db8930b025dc, type: 3}
+      - {fileID: 4377328067562939075, guid: 0a578886c7d73bd4a8cc66043bf764ab, type: 3}
+      - {fileID: 4236221826871765855, guid: e91cde9caa9b24449a99ede7a47f70b6, type: 3}
+      - {fileID: 6853676193535657325, guid: 442639a6841f6fc42a54952802e9c78c, type: 3}
+      redTownCards:
+      - {fileID: 1746727819903919274, guid: 01fc8d0f7733cda4f9d0ab9fa36cdf5e, type: 3}
+      - {fileID: 441434221677438366, guid: 062e916e98f97d84ca0f6da77244bc7e, type: 3}
+      - {fileID: 7843818114998267054, guid: 271be8a593a2f71498f9206ee3457743, type: 3}
+      - {fileID: 4300010129286036303, guid: ca3afca752f6f3543a04c00730d101c7, type: 3}
+      - {fileID: 4938141132378620851, guid: d9d256c0c0c78874db43bf54bae96934, type: 3}
+      - {fileID: 5497524021979723273, guid: 08a7e801a8cef604297729e91bd7ca86, type: 3}
+      yellowTownCards:
+      - {fileID: 5403649883888253266, guid: 1460ee3c0a4c34f4789bba5a11091b0e, type: 3}
+      - {fileID: 7111158226921419881, guid: 438d58806cc1e9942807eedc92f3fcef, type: 3}
+      - {fileID: 4920820733310352806, guid: 5bcb14f7fac204443a177342cbf965c0, type: 3}
+      - {fileID: 3073624770987095004, guid: 0aa345fed9590874a8569588bad719e3, type: 3}
+      - {fileID: 2354107249845070337, guid: 2e124722c60711c478217a222e2e4b70, type: 3}
+      - {fileID: 3448674512375028399, guid: cc1750cb9ad2a0140a466061eac15bc0, type: 3}
